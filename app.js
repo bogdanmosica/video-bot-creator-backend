@@ -8,7 +8,7 @@ require("dotenv").config();
 var indexRouter = require("./routes/index");
 var usersRouter = require("./routes/users");
 
-const getDataFavoriteAuthorQuotes = require("./robots/BrainyQuote/index.js");
+const getDataFavoriteAuthorQuotes = require("./robots/brainyQuotes/index.js");
 var app = express();
 
 app.use(logger("dev"));
